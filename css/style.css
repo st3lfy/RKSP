@@ -1,0 +1,152 @@
+body {
+    background-color: FFFFFF;
+    z-index: 1;
+}
+
+.test{
+    font-style: italic;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.bottom{
+    padding-left : 80%
+    padding-bottom : 2%;
+}
+
+.back{
+    background-color: 8A86C6;
+}
+
+.text{
+    color: FFFFFF;  
+    padding-left: 22%; 
+    font-style: italic;
+    font-weight: 900;  
+}
+
+.text33{
+    color: FFFFFF;  
+    padding-left: 3%; 
+    font-style: italic;
+    font-weight: 600; 
+    font-size: 20px;
+}
+
+.text22{
+    color: FFFFFF;  
+    padding-left: 27%; 
+    font-style: italic;
+    font-weight: 900;   
+}
+
+.text222{
+    color: FFFFFF;  
+    padding-left: 18%; 
+    font-style: italic;
+    font-weight: 900;   
+}
+
+.blok2 {
+    top: 150px;
+    left: 25%;
+    width: 960px;
+    height: 90px;
+    background-color: 8A86C6;
+    z-index: 3;   
+}
+
+#blok3 {
+    position: absolute;
+    top: 35.18518518518519%;
+    left: 25%;
+    width: 300px;
+    height: 300px;
+    background-color: 8A86C6;
+    z-index: 3;   
+}
+
+#blok4 {
+    position: absolute;
+    top: 35.18518518518519%;
+    left: 42.1875%;
+    width: 300px;
+    height: 300px;
+    background-color: 8A86C6;
+    z-index: 3;   
+}
+
+#blok5 {
+    position: absolute;
+    top: 35.18518518518519%;
+    left: 59.375%;
+    width: 300px;
+    height: 300px;
+    background-color: 8A86C6;
+    z-index: 3;   
+}
+
+#blok6 {
+    position: absolute;
+    top: 90%;
+    left: 0%;
+    width: 100%;
+    height: 90px;
+    background-color: 8A86C6;
+    z-index: 2;   
+}
+
+
+#blok7 {
+    position: absolute;
+    top: 150px;
+    left: 25%;
+    width: 960px;
+    height: 600px;
+    background-color: 8A86C6;
+    z-index: 2;   
+}
+
+#main {
+    position: absolute;
+    top: 150px;
+    left: 10%;
+    width: 150px;
+    height: 80px;
+    background-color: 8A86C6;
+    z-index: 2;   
+}
+
+
+.text1{
+    color: FFFFFF;
+    text-align: center;   
+    
+}
+
+.text2{
+    color: FFFFFF;  
+    padding-left: 22%; 
+    font-style: italic;
+    font-weight: 600;  
+}
+
+.text0{
+    color: FFFFFF;  
+    padding-left: 40%; 
+    font-style: italic;
+    font-weight: 600;  
+}
+
+
+
+
+.text6{
+    color: FFFFFF;  
+    padding-left: 5%; 
+    font-style: italic;
+    font-weight: 500;
+}
+
+
+
