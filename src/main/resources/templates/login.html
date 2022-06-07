@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org"
+      xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <title>Spring Security Example </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <style>
+      .footer {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 60px; /* Set the fixed height of the footer here */
+      line-height: 60px; /* Vertically center the text there */
+      background-color: #f5f5f5;
+      }
+    </style>
+</head>
+<body>
+
+
+
+
+
+
+
+
+<header th:insert="Blocks/Header :: header"></header>
+<main role="main" class="container">
+    <div class="pricing-header p-3 pb-md-5 mx-auto text-center">
+        <h1 class="display-4 fw-normal">Личный кабинет студента</h1>
+    </div>
+    <div th:if="${param.error}">
+        Invalid username and password.
+    </div>
+    <div th:if="${param.logout}">
+        You have been logged out.
+    </div>
+    <form th:action="@{/login}" method="post">
+        <div><label> User Name : <input type="text" name="username"/> </label></div>
+        <div><label> Password: <input type="password" name="password"/> </label></div>
+        <a href="/main"><div><input type="submit" value="Sign In"/></div></a>
+    </form>
+
+    </div>
+</main>
+<footer th:insert="Blocks/footer :: footer"></footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,9 +1,7 @@
 package com.lk.demo.models;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
+
 
 @Entity
 public class Teachers {
@@ -12,7 +10,7 @@ public class Teachers {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    private String full_name, subject;
+    private String full_name;
 
     public long getId() {
         return id;
@@ -30,11 +28,4 @@ public class Teachers {
         this.full_name = full_name;
     }
 
-    public String getSubject() {
-        return subject;
-    }
-
-    public void setSubject(String subject) {
-        this.subject = subject;
-    }
 }

@@ -8,6 +8,7 @@
         </a>
         <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
             <div ><h3 class="p-2 text-dark text-decoration-none" th:inline="text">[[${#httpServletRequest.remoteUser}]] </h3></div>
+
             <div class >
                 <form class="p-2 text-dark text-decoration-none" th:action="@{/logout}" method="post">
                     <input type="submit" value="Выйти"/>

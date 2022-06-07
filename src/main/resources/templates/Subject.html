@@ -21,10 +21,10 @@
 <body>
 <header th:insert="Blocks/HeaderAuth :: header"></header>
 <div class="container back pt-5 pb-5" style="background-color:#f5f5f5">
-    <h2 class="text">Список преподавателей</h2>
+    <h2 class="text">Список учебных дисциплин</h2>
     <h5 class="pb-4">Группа : БИВТ-20-3</h5>
-    <table class="table table-bordered" th:each="el : ${teachers}">
-        <a th:text="${el.id} + ' . ' + ${el.full_name}"></a>
+    <table class="table table-bordered" th:each="el : ${subject}">
+        <a th:text="${el.id} + ' . ' + ${el.subject}"></a>
     </table>
 </div>
 <footer th:insert="Blocks/footer :: footer"></footer>
